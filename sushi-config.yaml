@@ -2,22 +2,22 @@
 # ───────────────────────────────────────────────────
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
-id: ihe.domain.profile
-canonical: https://profiles.ihe.net/Domain/Profile
+id: ihe.pharm.unicom.transactions
+canonical: https://profiles.ihe.net/Pharm/unicom-transactions
 version: 0.1.1
-name: IHE_Domain_Profile
-title: "spelled out name of the IHE Profile"
-description: put the short description of the profile here. it should explain what problem is being solved
+name: IHEUnicomTransactions
+title: "IHE UNICOM Transactions"
+description: IHE transactions for the UNICOM project
 releaseLabel: ci-build
 #releaseLabel: Trial-Implementation
 #date: 2022-01-02
 status: active
 publisher:
-  - name: IHE IT Infrastructure Technical Committee
-  - url: https://www.ihe.net/ihe_domains/it_infrastructure/
-  - email: iti@ihe.net
+  - name: UNICOM
+  - url: https://unicom-project-eu
+  - email: unicom@example.com
 contact:
-  - name: IHE IT Infrastructure Technical Committee
+  - name: UNICOM
     telecom:
       - system: email
         value: iti@ihe.net
@@ -25,7 +25,7 @@ license:  CC-BY-4.0
 fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
 #copyright: IHE http://www.ihe.net/Governance/#Intellectual_Property
-copyrightYear: 2021+
+copyrightYear: 2023+
 
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
@@ -56,34 +56,28 @@ pages:
   index.md:
     title: 1:XX. Profile Home
     generation: markdown
+  t1-createfullproduct.md:
+    title: Transaction 1 - Create Full Product
+    generation: markdown
   volume-1.md:
     title: 1:XX. Profile Volume 1
-    generation: markdown
-  domain-YY.md:
-    title: 2:3.YY Transaction one [Domain-YY]
     generation: markdown
   testplan.md:
     title: "Test Plan"
     generation: markdown
-  issues.md:
-    title: Open and Closed issues
-    generation: markdown
-  other.md:
-    title: Changes to Other Profiles
-    generation: markdown
     
 menu:
-  FooBar Home: index.html
-  Volume 1:
-    Introduction: volume-1.html
-    Actors and Transactions: volume-1.html#actors-and-transactions
-    Actor Options: volume-1.html#actor-options
-    Required Groupings: volume-1.html#required-groupings
-    Overview: volume-1.html#overview
-    Security Considerations: volume-1.html#security-considerations
-    Cross-Profile Considerations: volume-1.html#other-grouping
-  Volume 2:
-    "Transaction one [Domain-YY]": domain-YY.html
-  Test Plan: testplan.html
-  Artifacts: artifacts.html
-  Other: other.html
+  Home: index.html
+#   Volume 1:
+#     Introduction: volume-1.html
+#     Actors and Transactions: volume-1.html#actors-and-transactions
+#     Actor Options: volume-1.html#actor-options
+#     Required Groupings: volume-1.html#required-groupings
+#     Overview: volume-1.html#overview
+#     Security Considerations: volume-1.html#security-considerations
+#     Cross-Profile Considerations: volume-1.html#other-grouping
+#   Volume 2:
+#     "Transaction one [Domain-YY]": domain-YY.html
+#   Test Plan: testplan.html
+#   Artifacts: artifacts.html
+#   Other: other.html

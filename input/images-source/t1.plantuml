@@ -1,0 +1,10 @@
+@startuml
+hide footbox
+participant "Product\nCreator" as a1
+participant "Product\nRepository" as a2
+
+a1 -> a2 : [[profile1.html Profile 1]]\n Submit a full product definition
+activate a1
+activate a2
+
+@enduml
