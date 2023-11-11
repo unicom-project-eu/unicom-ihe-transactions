@@ -1,0 +1,16 @@
+@startuml
+'!include ./style.iuml
+
+title Medication Product Info - Actor Diagram\n
+skinparam linetype polyline
+agent "  [[actors_and_transactions.html#product-data-provider Product Data Provider]]" as proddataprovider
+agent " [[actors_and_transactions.html#product-data-consumer Product Data Consumer ]]" as proddataconsumer
+
+agent "[[actors_and_transactions.html#substitution-adviser Substitution Adviser]]" as substadviser
+agent "[[actors_and_transactions.html#substitution-requester Substitution Requester]]" as substrequester
+
+
+proddataprovider -- proddataconsumer : "  [[ PHARM-U1.html PHARM-U1 Submit product data ]] ↓      \n\n[[PHARM-U2.html PHARM-U2 Query product data]] ↑      "
+proddataprovider -[hidden]r- substadviser : "\t\t\t\t"
+substadviser -d- substrequester : " [[PHARM-U3.html PHARM-U3 Query for Substitutes]] ↑   "
+@enduml

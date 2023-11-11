@@ -1,0 +1,10 @@
+@startuml
+hide footbox
+participant "[[actors_and_transactions.html#product-data-provider Product Data\nProvider]]" as a1
+participant "[[actors_and_transactions.html#product-data-consumer Product Data\nConsumer ]]" as a2
+
+a2 -> a1 : [[u2.html PHARM-U2]]\n Query product data
+activate a1
+activate a2
+
+@enduml
