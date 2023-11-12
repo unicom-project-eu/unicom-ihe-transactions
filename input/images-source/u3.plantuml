@@ -1,10 +1,10 @@
 @startuml
 hide footbox
-participant "[[actors_and_transactions.html#substitution-adviser Substitution\nAdviser]]" as a3
-participant "[[actors_and_transactions.html#substitution-requester Substitution\nRequester]]" as a4
+participant "[[actors_and_transactions.html#product-data-provider Product Data\nProvider (Regulatory)]]" as a1
+participant "[[actors_and_transactions.html#product-data-consumer Product Data\nConsumer (Regulatory)]]" as a2
 
-a3 -> a4 : [[u3.html PHARM-U3]]\n Query for substitutes
-activate a3
-activate a4
-
+a1 -> a2 : [[u3.html PHARM-U3]]\n Provide product data - regulatory
+activate a1
+activate a2
+|||
 @enduml

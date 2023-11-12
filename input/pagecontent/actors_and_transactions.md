@@ -60,45 +60,47 @@ ____
 <br/>             
 
 ### Product Data Updates
-For the ordering aspects of supply request, two actors are considered: 
-
-<img src="actors_ordering.png" width="60%"/>
-<br clear="all"/>
-
-
-#### <a name="product-data-provider"></a>**Product Data Provider** 
-Issues requests for supply. The request can be triggered by any of several events - periodic reordering, minimum reached, etc.
-* Sends supply request - transaction [PHARM-S1](PHARM-S1.html).
-* Receives updates on supply request status - transaction [PHARM-S2](PHARM-S2.html). 
+Two actors are considered: 
 
 
 #### <a name="product-data-consumer"></a>**Product Data Consumer** 
-Receives and handles the supply request. The handling can be to respond (e.g. with approval) and/or to forward the request (e.g. to the actual supplier).
-* Sends updates on supply request status - transaction [PHARM-S2](PHARM-S2.html). 
-* Receives supply request - transaction [PHARM-S1](PHARM-S1.html).
+The Product Data Consumer is a class of actors which use IDMP-compatible product master data (product definitions) to consumer. This can be used for any purposes - prescribing, dispensing, etc. and the product data for any [product level concept](concepts.html) - Medicinal Product, Pharmaceutical Product, Packaged Product, or any medicinal product concept, whether it is an IDMP concept or a national concept, as long as it is expressed in an IDMP-compatible way. This actor uses data expressed either as a Bundle of medication definition resources or as a Medication resource, supporting two transaction options.
+
+* Query for medicinal product master data - regulatory - transaction [PHARM-U1](PHARM-U1.html).
+* Provide medicinal product master data - regulatory - transaction [PHARM-U3](PHARM-U3.html).
+  
+* Query for medicinal product master data - clinical - transaction [PHARM-U2](PHARM-U2.html).
+* Provide medicinal product master data - clinical - transaction [PHARM-U4](PHARM-U4.html).
+
+
+
+#### <a name="product-data-provider"></a>**Product Data Provider** 
+The Product Data Provider is a  class of actors which serve IDMP-compatible product master data (product definitions) to consumer. This can be product data for any [product level concept](concepts.html) - Medicinal Product, Pharmaceutical Product, Packaged Product, or any medicinal product concept, whether it is an IDMP concept or a national concept, as long as it is expressed in an IDMP-compatible way. This actor can provide data expressed either as a Bundle of medication definition resources or as a Medication resource, supporting two transaction options.
+
+* Query for medicinal product master data - regulatory - transaction [PHARM-U1](PHARM-U1.html).
+* Provide medicinal product master data - regulatory - transaction [PHARM-U3](PHARM-U3.html).
+  
+* Query for medicinal product master data - clinical - transaction [PHARM-U2](PHARM-U2.html).
+* Provide medicinal product master data - clinical - transaction [PHARM-U4](PHARM-U4.html).
+
+
 
 
 <br/>
 
 
 ### Substitution
-
-
 The delivery considers two actors: 
 
-<img src="actors_delivery.png" width="60%"/>
-<br clear="all"/>
+#### <a name="substitution-requester"></a>**Substitution Requester**
+This actor requests for equivalent or substitute products for a given product or set of product characteristics
+* Query for Substitutes - transaction [PHARM-U5](PHARM-U5.html). 
+
 
 #### <a name="substitution-adviser"></a>**Substitution Adviser**
-The supplier sends or forwards the items to a receiver and updates the information about such sending:
-* Sends shipment notices - transaction [PHARM-S3](PHARM-S3.html). 
-* Receives delivery notices - transaction [PHARM-S4](PHARM-S4.html). 
+This actor provides equivalent or substitute products for a given product or set of product characteristics
+* Query for Substitutes - transaction [PHARM-U5](PHARM-U5.html). 
 
-
-#### <a name="substitution-requester"></a>**Substitution Requester**
-This actor represents the intended or actual receiver of the products.
-* Sends delivery notices - transaction [PHARM-S4](PHARM-S4.html). 
-* Receives shipment notices - transaction [PHARM-S3](PHARM-S3.html). 
 
 <br/>
 

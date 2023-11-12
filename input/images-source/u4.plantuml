@@ -1,0 +1,10 @@
+@startuml
+hide footbox
+participant "[[actors_and_transactions.html#product-data-provider Product Data\nProvider (Clinical)]]" as a1
+participant "[[actors_and_transactions.html#product-data-consumer Product Data\nConsumer (Clinical)]]" as a2
+
+a1 -> a2 : [[u4.html PHARM-U3]]\n Provide product data - clinical\t
+activate a1
+activate a2
+|||
+@enduml

@@ -1,16 +1,34 @@
 @startuml
 '!include ./style.iuml
-
-title Medication Product Info - Actor Diagram\n
+!pragma teoz true
+title Medication Product Info   \t- \tActor Diagram\n
 skinparam linetype polyline
-agent "  [[actors_and_transactions.html#product-data-provider Product Data Provider]]" as proddataprovider
-agent " [[actors_and_transactions.html#product-data-consumer Product Data Consumer ]]" as proddataconsumer
-
-agent "[[actors_and_transactions.html#substitution-adviser Substitution Adviser]]" as substadviser
-agent "[[actors_and_transactions.html#substitution-requester Substitution Requester]]" as substrequester
 
 
-proddataprovider -- proddataconsumer : "  [[ PHARM-U1.html PHARM-U1 Submit product data ]] ↓      \n\n[[PHARM-U2.html PHARM-U2 Query product data]] ↑      "
-proddataprovider -[hidden]r- substadviser : "\t\t\t\t"
-substadviser -d- substrequester : " [[PHARM-U3.html PHARM-U3 Query for Substitutes]] ↑   "
+rectangle "Product Data Provider" {
+  agent "  [[actors_and_transactions.html#product-data-provider Product Data \nProvider (Regulatory)]]" as proddataprovider
+  agent "  [[actors_and_transactions.html#product-data-provider Product Data \nProvider (Clinical) ]]" as proddataproviderc
+}
+
+rectangle "Product Data Consumer" {
+agent " [[actors_and_transactions.html#product-data-consumer Product Data \nConsumer (Regulatory) ]]" as proddataconsumer
+agent " [[actors_and_transactions.html#product-data-consumer Product Data \nConsumer (Clinical) ]]" as proddataconsumerc
+}
+
+agent "**[[actors_and_transactions.html#substitution-adviser Substitution Adviser]]**" as substadviser
+agent "**[[actors_and_transactions.html#substitution-requester Substitution Requester]]**" as substrequester
+
+
+
+proddataprovider -- proddataconsumer : " **↓**  [[u3.html Submit regulatory\nproduct data \nPHARM-U3 ]]       \n\n\n\n **↑**  [[u1.html Query regulatory\nprdoduct data\nPHARM-U1]]       "
+
+proddataproviderc -- proddataconsumerc : " **↓**  [[u4.html Submit clinical\nproduct data \nPHARM-U4 ]]    \n\n\n\n **↑**  [[u2.html Query clinical\nprdoduct data\nPHARM-U2]]   "
+
+proddataprovider -[hidden]r- proddataproviderc : "                 "
+
+proddataconsumer -[hidden]r- proddataconsumerc : "              "
+
+
+proddataproviderc -[hidden]r- substadviser : "\t\t"
+substadviser -d- substrequester : " [[u5.html PHARM-U5 \nQuery for Substitutes]] ↑   "
 @enduml
