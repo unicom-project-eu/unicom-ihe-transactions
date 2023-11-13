@@ -3,7 +3,7 @@ hide footbox
 participant "[[actors_and_transactions.html#product-data-provider Product Data\nProvider (Regulatory)]]" as a1
 participant "[[actors_and_transactions.html#product-data-consumer Product Data\nConsumer (Regulatory)]]" as a2
 
-a1 -> a2 : [[u3.html PHARM-U3]]\n Provide product data - regulatory
+a1 -> a2 : [[u3.html PHARM-U3]]\n Provide product data - regulatory \t
 activate a1
 activate a2
 |||

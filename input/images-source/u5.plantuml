@@ -3,8 +3,8 @@ hide footbox
 participant "[[actors_and_transactions.html#substitution-adviser Substitution\nAdviser]]" as a3
 participant "[[actors_and_transactions.html#substitution-requester Substitution\nRequester]]" as a4
 
-a3 -> a4 : [[u5.html PHARM-U5]]\n Query for substitutes
+a3 -> a4 : [[u5.html PHARM-U5]]\n Query for substitutes \t
 activate a3
 activate a4
-
+|||
 @enduml
