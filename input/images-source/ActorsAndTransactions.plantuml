@@ -20,9 +20,9 @@ agent "**[[actors_and_transactions.html#substitution-requester Substitution Requ
 
 
 
-proddataprovider -- proddataconsumer : " **↓**  [[u3.html Submit regulatory\nproduct data \nPHARM-U3 ]]       \n\n\n\n **↑**  [[u1.html Query regulatory\nprdoduct data\nPHARM-U1]]       "
+proddataprovider -- proddataconsumer : " **↓**  [[u3.html Submit regulatory\nproduct data \nPHARM-U3 ]]       \n\n\n\n **↑**  [[u1.html Query regulatory\nproduct data\nPHARM-U1]]       "
 
-proddataproviderc -- proddataconsumerc : " **↓**  [[u4.html Submit clinical\nproduct data \nPHARM-U4 ]]    \n\n\n\n **↑**  [[u2.html Query clinical\nprdoduct data\nPHARM-U2]]   "
+proddataproviderc -- proddataconsumerc : " **↓**  [[u4.html Submit clinical\nproduct data \nPHARM-U4 ]]    \n\n\n\n **↑**  [[u2.html Query clinical\nproduct data\nPHARM-U2]]   "
 
 proddataprovider -[hidden]r- proddataproviderc : "                 "
 
