@@ -53,9 +53,19 @@ resources:
 
 pages:
 # itemize here each narrative page. Include assigned section numbers when appropriate
-  # index.md:
-  #   title: 1:XX. Profile Home
-  #   generation: markdown
+  index.md:
+    title: 1. Home
+    generation: markdown
+  volume-1.html:
+    title: Volume 1
+    generation: markdown
+    requirements.html:
+      title: Requirements
+      generation: markdown
+  volume-2.html:
+    title: Volume 2
+    generation: markdown
+
   # t1-createfullproduct.md:
   #   title: Transaction 1 - Create Full Product
   #   generation: markdown
@@ -68,10 +78,11 @@ pages:
     
 menu:
   Home: index.html
-#   Volume 1:
-#     Introduction: volume-1.html
-#     Actors and Transactions: volume-1.html#actors-and-transactions
-#     Actor Options: volume-1.html#actor-options
+  Volume 1:
+    Introduction: volume-1.html
+    Requirements: requirements.html
+    Actors and Transactions: volume-1.html#actors-and-transactions
+    Actor Options: volume-1.html#actor-options
 #     Required Groupings: volume-1.html#required-groupings
 #     Overview: volume-1.html#overview
 #     Security Considerations: volume-1.html#security-considerations
