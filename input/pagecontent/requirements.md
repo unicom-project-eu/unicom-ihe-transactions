@@ -1,20 +1,26 @@
 
 |R1: Regulatory IDMP product data exchange|
 |-----|
-|Regulators need to provide fully descriptive data of medication products, for EMA / IDMP concepts (Pharmaceutical Product, Medicinal Product or Packaged Product) using IDMP-terms.|
+|Regulators need to provide fully descriptive data of medication products. This description is based on EMA / IDMP concepts (Pharmaceutical Product, Medicinal Product or Packaged Product) and using IDMP-terms (SPOR).|
 {: .table .table-bordered}
 <br>
 
 
 |R2: IDMP-compatible MPD product data exchange|
 |-----|
-|Nationally, regulators and MPD vendors need to provide fully descriptive data of medication products for their products, using their terms. This exchange may be expressed in an IDMP compatible - which is needed but not across all actors.|
+|Nationally, regulators and MPD vendors need to provide fully descriptive data of medication products for their products, using their own concepts and / or own terms. This product data may be expressed in IDMP compatible - which is needed but not across all actors.|
 {: .table .table-bordered}
 <br>
 
-| R3: National product concept data exchange|
+| R3: National product concept data exchange - product catalogs|
 |-----|
-|National prescription may be expressed in nationally accepted terms, using national concepts, vocabularies and identifiers. Such possibility shall be preserved.|
+|National product data may be expressed in nationally accepted terms, using national concepts, vocabularies and identifiers. Soe actors may use IDMP concepts and valuesets, others may use only national concepts and valuesets, and others may mix them. Such transition is important to support the actual clinical flows.|
+{: .table .table-bordered}
+<br>
+
+| R3: National product description in clinical documents|
+|-----|
+|inside clinical documents (prescriptions, dispenses, etc.) product data may be expressed in nationally accepted terms, using national concepts, vocabularies and identifiers. Such possibility shall be preserved.|
 {: .table .table-bordered}
 <br>
 
@@ -32,7 +38,6 @@
 <br>
 
 
-
 |R7: Cross-border product identification is based on IDMP terms|
 |-----|
 |Cross-border product identification is based on IDMP terms (i.e. IDMP data elements using IDMP semantics)|
@@ -40,8 +45,7 @@
 <br>
 
 
-
-|R6: |
+|R6: Cross-border documents shall contain sufficient information for identification and substitution|
 |-----|
 |Cross-border prescription must contain or be able to infer the elements needed for substitution|
 {: .table .table-bordered}
@@ -49,9 +53,9 @@
 
 
 
-|R7: |
+|R7: Substitution rules should be expressed in compatible terms|
 |-----|
-|Substitution should be expressed in |
+|Substitution rules should be expressed in |
 {: .table .table-bordered}
 <br>
 
