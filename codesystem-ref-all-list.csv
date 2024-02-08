@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://hl7.org/fhir/animal-tissue-type,5.0.0,active,"2.16.840.1.113883.4.642.4.2033",AnimalTissueType,Animal Tissue Type,"A tissue type of an animal.","ValueSet/animal-tissue-type"
+http://hl7.org/fhir/publication-status,5.0.0,active,"2.16.840.1.113883.4.642.4.4",PublicationStatus,PublicationStatus,"The lifecycle status of an artifact.","ValueSet/publication-status"
+http://hl7.org/fhir/target-species,5.0.0,active,"2.16.840.1.113883.4.642.4.2030",TargetSpecies,Target Species,"A species for which a medicinal product is intended.","ValueSet/target-species"
+https://spor.ema.europa.eu/v1/lists/100000073345,0.1.0,draft,,Routes_And_Methods_Of_Administration_EMA_CS,Routes and Methods of Administration EMA,"Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes.","ValueSet/routes-and-methods-of-administration-vs"
+https://spor.ema.europa.eu/v1/lists/200000000004,0.1.0,draft,,PharmaceuticalDoseForm_EMA_CS,Pharmaceutical Dose Form EMA,"Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.","ValueSet/pharmaceutical-doseform-vs"
+https://spor.ema.europa.eu/v1/lists/200000000014,0.1.0,draft,,UnitOfPresentation_EMA_CS,Unit of Presentation EMA,"Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes.","ValueSet/unit-of-presentation-vs"
+urn:ietf:bcp:47,2.0.1,active,"2.16.840.1.113883.6.121",Ietf3066,Tags for the Identification of Languages,"Older value from OID registry.  Superceded; see recommendations in BCP-47.","ValueSet/languages,ValueSet/all-languages"

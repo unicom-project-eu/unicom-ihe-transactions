@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "ihe.pharm.unicom.transactions",
+    "type" : "ImplementationGuide",
+    "url" : "https://profiles.ihe.net/Pharm/unicom-transactions/ImplementationGuide/ihe.pharm.unicom.transactions",
+    "version" : "0.0.1",
+    "name" : "IHEUnicomTransactions"
+  },
+  {
+    "id" : "Product-substitutes",
+    "type" : "OperationDefinition",
+    "url" : "https://profiles.ihe.net/Pharm/unicom-transactions/OperationDefinition/Product-substitutes",
+    "version" : "0.0.1",
+    "name" : "ProductSubstitutes"
+  },
+  {
+    "id" : "IHEPPLAdministrableProductDefinition",
+    "type" : "StructureDefinition",
+    "url" : "https://profiles.ihe.net/Pharm/unicom-transactions/StructureDefinition/IHEPPLAdministrableProductDefinition",
+    "version" : "0.0.1",
+    "name" : "IHEPPLAdministrableProductDefinition"
+  }
+]

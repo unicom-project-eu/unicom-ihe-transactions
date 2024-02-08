@@ -1,0 +1,86 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/animal-tissue-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AnimalTissueType",
+      "title" : "Animal Tissue Type",
+      "description" : "A tissue type of an animal.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2033"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-animal-tissue-type.html" : "Animal Tissue Type"
+    },
+    {
+      "url" : "http://hl7.org/fhir/publication-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "oids" : ["2.16.840.1.113883.4.642.4.4"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-publication-status.html" : "PublicationStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/target-species",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TargetSpecies",
+      "title" : "Target Species",
+      "description" : "A species for which a medicinal product is intended.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2030"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-target-species.html" : "Target Species"
+    },
+    {
+      "url" : "https://spor.ema.europa.eu/v1/lists/100000073345",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "Routes_And_Methods_Of_Administration_EMA_CS",
+      "title" : "Routes and Methods of Administration EMA",
+      "description" : "Routes and methods of medication administration. Based on EDQM, re-coded with RMS codes.",
+      "uses" : {
+      },
+      "https://build.fhir.org/ig/hl7-eu/unicom-ig//ValueSet-routes-and-methods-of-administration-vs.html" : "EMA SPOR Routes and Methods of Administration"
+    },
+    {
+      "url" : "https://spor.ema.europa.eu/v1/lists/200000000004",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PharmaceuticalDoseForm_EMA_CS",
+      "title" : "Pharmaceutical Dose Form EMA",
+      "description" : "Pharmaceutical dose form. Based on EDQM, re-coded with RMS codes.",
+      "uses" : {
+      },
+      "https://build.fhir.org/ig/hl7-eu/unicom-ig//ValueSet-pharmaceutical-doseform-vs.html" : "EMA SPOR Pharmaceutical Dose Form"
+    },
+    {
+      "url" : "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "UnitOfPresentation_EMA_CS",
+      "title" : "Unit of Presentation EMA",
+      "description" : "Unit of presentation list from EMA SPOR. List id 200000000014. Content based on EDQM, re-coded with RMS codes.",
+      "uses" : {
+      },
+      "https://build.fhir.org/ig/hl7-eu/unicom-ig//ValueSet-unit-of-presentation-vs.html" : "EMA SPOR Unit of Presentation"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+    }
+  ]
+}

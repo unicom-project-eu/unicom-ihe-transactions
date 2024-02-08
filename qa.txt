@@ -1,0 +1,101 @@
+IHEUnicomTransactions : Validation Results
+=========================================
+
+err = 0, warn = 1, info = 3
+IG Publisher Version: 1.5.16
+Generated Thu Feb 08 17:12:19 UTC 2024. FHIR version 5.0.0 for ihe.pharm.unicom.transactions#0.0.1 (canonical = https://profiles.ihe.net/Pharm/unicom-transactions)
+ Build Errors : 82 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-ihe.pharm.unicom.transactions : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/OperationDefinition-Product-substitutes : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-IHEPPLAdministrableProductDefinition : 0 / 1 / 2
+</table>
+== n/a ==
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes-testing.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes.change.history.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes.json.html#/html/body/div/div/div/a/img at Line 70, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes.ttl.html#/html/body/div/div/div/a/img at Line 70, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-Product-substitutes.xml.html#/html/body/div/div/div/a/img at Line 70, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition-definitions.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition-examples.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition-mappings.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition-testing.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition.profile.history.html#/html/body/div/div/div/a/img at Line 72, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition.profile.json.html#/html/body/div/div/div/a/img at Line 76, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition.profile.ttl.html#/html/body/div/div/div/a/img at Line 76, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-IHEPPLAdministrableProductDefinition.profile.xml.html#/html/body/div/div/div/a/img at Line 76, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 9204: The link 'u3.html' for "Submit regulatory" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 9536: The link 'u3.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 9862: The link 'u3.html' for "PHARM-U3" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 11179: The link 'u1.html' for "Query regulatory" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 11510: The link 'u1.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 11836: The link 'u1.html' for "PHARM-U1" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 13030: The link 'u4.html' for "Submit clinical" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 13359: The link 'u4.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 13685: The link 'u4.html' for "PHARM-U4" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 14990: The link 'u2.html' for "Query clinical" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 15318: The link 'u2.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 15644: The link 'u2.html' for "PHARM-U2" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 16628: The link 'u5.html' for "PHARM-U5" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/figure/svg/g/g/a at Line 197, column 16950: The link 'u5.html' for "Query for Substitutes" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 219, column 14: The link 'PHARM-U1.html' for "Query regulatory product data [PHARM-U1]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 223, column 14: The link 'PHARM-U3.html' for "Submit regulatory product data [PHARM-U3]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 228, column 14: The link 'PHARM-U2.html' for "Query clinical product data [PHARM-U2]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 232, column 14: The link 'PHARM-U4.html' for "Submit clinical product data [PHARM-U4]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 237, column 14: The link 'PHARM-U1.html' for "Query regulatory product data [PHARM-U1]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 241, column 14: The link 'PHARM-U3.html' for "Submit regulatory product data [PHARM-U3]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 246, column 14: The link 'PHARM-U2.html' for "Query clinical product data [PHARM-U2]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 250, column 14: The link 'PHARM-U4.html' for "Submit clinical product data [PHARM-U4]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 254, column 26: The link '#supply-request-filler' for "Substitution Adviser" cannot be resolved (valid targets: [substitution-requester, substitution, proddataproviderc-proddataconsumerc, project-nav, publish-box, segment-post-footer, elem_substadviser, proddataprovider-proddataconsumer, family-logo, cluster_Product Data Consumer, cluster_Product Data Provider, top, markdown-toc-substitution, stripe, segment-footer, substitution-adviser, ihe-logo, segment-content, elem_substrequester, elem_proddataprovider, project-logo, segment-header, elem_proddataconsumerc, bottom, actors-and-transactions, markdown-toc-product-data-updates, product-data-consumer, elem_proddataproviderc, link_proddataproviderc_proddataconsumerc, elem_proddataconsumer, family-nav, ig-status, markdown-toc, link_substadviser_substrequester, link_proddataprovider_proddataconsumer, product-data-updates, substadviser-substrequester, product-data-provider, segment-navbar, segment-breadcrumb])
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 255, column 14: The link 'PHARM-U5.html' for "Query substitutes [PHARM-U5]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 259, column 26: The link '#supply-request-filler' for "Substitution Requester" cannot be resolved (valid targets: [substitution-requester, substitution, proddataproviderc-proddataconsumerc, project-nav, publish-box, segment-post-footer, elem_substadviser, proddataprovider-proddataconsumer, family-logo, cluster_Product Data Consumer, cluster_Product Data Provider, top, markdown-toc-substitution, stripe, segment-footer, substitution-adviser, ihe-logo, segment-content, elem_substrequester, elem_proddataprovider, project-logo, segment-header, elem_proddataconsumerc, bottom, actors-and-transactions, markdown-toc-product-data-updates, product-data-consumer, elem_proddataproviderc, link_proddataproviderc_proddataconsumerc, elem_proddataconsumer, family-nav, ig-status, markdown-toc, link_substadviser_substrequester, link_proddataprovider_proddataconsumer, product-data-updates, substadviser-substrequester, product-data-provider, segment-navbar, segment-breadcrumb])
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 260, column 14: The link 'PHARM-U5.html' for "Query substitutes [PHARM-U5]" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/p/a at Line 274, column 228: The link 'concepts.html' for "product level concept" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 277, column 75: The link 'PHARM-U1.html' for "PHARM-U1" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 278, column 73: The link 'PHARM-U2.html' for "PHARM-U2" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 279, column 73: The link 'PHARM-U3.html' for "PHARM-U3" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 280, column 71: The link 'PHARM-U4.html' for "PHARM-U4" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/p/a at Line 284, column 169: The link 'concepts.html' for "product level concept" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 287, column 75: The link 'PHARM-U1.html' for "PHARM-U1" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 288, column 73: The link 'PHARM-U2.html' for "PHARM-U2" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 289, column 73: The link 'PHARM-U3.html' for "PHARM-U3" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 290, column 71: The link 'PHARM-U4.html' for "PHARM-U4" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 301, column 44: The link 'PHARM-U5.html' for "PHARM-U5" cannot be resolved
+ERROR: /github/workspace/output/actors_and_transactions.html#/html/body/div/div/div/div/div/ul/li/a at Line 307, column 44: The link 'PHARM-U5.html' for "PHARM-U5" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 242, column 14: The link 'issues.html' for "Significant Changes, Open, and Closed Issues" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ol/li/ol/li/a at Line 266, column 12: The link 'pharm-u1.html' for "Submit product data [U1]" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ol/li/ol/li/a at Line 267, column 12: The link 'pharm-u2.html' for "Query product data [U2]" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ol/li/ol/li/a at Line 268, column 12: The link 'pharm-u3.html' for "Query equivalents [U3]" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ol/li/ul/li/a at Line 273, column 12: The link 'testplan.html' for "Test Plan" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 233, column 12: The link 'domain-YY.html' for "do domain-Y" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 9200: The link 'u3.html' for "Submit regulatory" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 9532: The link 'u3.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 9858: The link 'u3.html' for "PHARM-U3" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 11175: The link 'u1.html' for "Query regulatory" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 11506: The link 'u1.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 11832: The link 'u1.html' for "PHARM-U1" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 13026: The link 'u4.html' for "Submit clinical" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 13355: The link 'u4.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 13681: The link 'u4.html' for "PHARM-U4" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 14986: The link 'u2.html' for "Query clinical" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 15314: The link 'u2.html' for "product data" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 15640: The link 'u2.html' for "PHARM-U2" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 16624: The link 'u5.html' for "PHARM-U5" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/div/svg/g/g/a at Line 254, column 16946: The link 'u5.html' for "Query for Substitutes" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/p/a at Line 374, column 35: The link 'CapabilityStatement-IHE.FooBar.server.html' for "Server" cannot be resolved
+ERROR: /github/workspace/output/volume-1.html#/html/body/div/div/div/div/div/p/a at Line 383, column 39: The link 'domain-YY.html' for "transaction description" cannot be resolved
+ERROR: /github/workspace/output/volume-2.html#/html/body/div/div/div/a/img at Line 68, column 94: The image source 'assets/images/Pharm.png' cannot be resolved
+== fsh-generated/resources/ImplementationGuide-ihe.pharm.unicom.transactions.json ==
+INFORMATION: ImplementationGuide/ihe.pharm.unicom.transactions: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/OperationDefinition-Product-substitutes.json ==
+INFORMATION: OperationDefinition/Product-substitutes: OperationDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-IHEPPLAdministrableProductDefinition.json ==
+INFORMATION: StructureDefinition/IHEPPLAdministrableProductDefinition: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition.where(url = 'https://profiles.ihe.net/Pharm/unicom-transactions/StructureDefinition/IHEPPLAdministrableProductDefinition'): The Implementation Guide contains no examples for this profile

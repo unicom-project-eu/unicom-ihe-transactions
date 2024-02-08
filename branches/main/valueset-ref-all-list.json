@@ -1,0 +1,144 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/animal-tissue-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "AnimalTissueType",
+      "title" : "Animal Tissue Type",
+      "description" : "A tissue type of an animal.",
+      "systems" : ["http://hl7.org/fhir/animal-tissue-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3165"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3165"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/product-characteristic-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ProductCharacteristic",
+      "title" : "Product Characteristic",
+      "description" : "This value set includes all observable entity codes from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3016"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3016"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/publication-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "systems" : ["http://hl7.org/fhir/publication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTSubstanceCodes",
+      "title" : "SNOMED CT Substance Codes",
+      "description" : "This value set includes all substance codes from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3023"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3023"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/target-species",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "TargetSpecies",
+      "title" : "Target Species",
+      "description" : "A species for which a medicinal product is intended.",
+      "systems" : ["http://hl7.org/fhir/target-species"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3166"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://unicom-project.eu/fhir/ValueSet/pharmaceutical-doseform-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PharmaceuticalDoseForm",
+      "title" : "EMA SPOR Pharmaceutical Dose Form",
+      "description" : "Pharmaceutical dose form. Does not include combination dose forms.",
+      "systems" : ["https://spor.ema.europa.eu/v1/lists/200000000004"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://unicom-project.eu/fhir/ValueSet/routes-and-methods-of-administration-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RoutesAndMethodsOfAdministration",
+      "title" : "EMA SPOR Routes and Methods of Administration",
+      "description" : "Routes and methods of medication administration. EMA SPOR RMS list, based on EDQM.",
+      "systems" : ["https://spor.ema.europa.eu/v1/lists/100000073345"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    },
+    {
+      "url" : "http://unicom-project.eu/fhir/ValueSet/unit-of-presentation-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "UnitOfPresentation",
+      "title" : "EMA SPOR Unit of Presentation",
+      "description" : "Units of presentation. EMA SPOR RMS list based on EDQM.",
+      "systems" : ["https://spor.ema.europa.eu/v1/lists/200000000014"],
+      "uses" : {
+      },
+      "StructureDefinition-IHEPPLAdministrableProductDefinition.html" : "My PPLAdministrableProductDefinition"
+    }
+  ]
+}

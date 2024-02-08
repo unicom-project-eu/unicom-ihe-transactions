@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="Product-substitutes"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>URL: [base]/$substitutes</p><p>URL: [base]/Medication/$substitutes</p><p>URL: [base]/Medication/[id]/$substitutes</p><p>URL: [base]/MedicationKnowledge/$substitutes</p><p>URL: [base]/MedicationKnowledge/[id]/$substitutes</p><p>URL: [base]/MedicinalProductDefinition/$substitutes</p><p>URL: [base]/MedicinalProductDefinition/[id]/$substitutes</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>country</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R5/datatypes.html#Coding">Coding</a></td><td/><td><div><p>The context in which the substitution is being executed, meaning the rules for substitution that are to be applied. Typically and by default the code for the country where the substitution is taking place.</p>
+</div></td></tr><tr><td>IN</td><td>doseform</td><td>instance</td><td>0..1</td><td><a href="http://hl7.org/fhir/R5/datatypes.html#Coding">Coding</a></td><td/><td><div><p>The dose form. This coded element can include codes from different codesystems - which will determine the possibility of finding a substtitute. Some systems may optionally support a search based on display text besides the coded form.</p>
+</div></td></tr><tr><td>IN</td><td>ingredient</td><td>instance</td><td>0..*</td><td></td><td/><td><div><p>Each relevant ingredient to find substitutes - each ingredient has 2 parts - the substance and the strength</p>
+</div></td></tr><tr><td>IN</td><td>ingredient.substance</td><td>instance</td><td>1..1</td><td><a href="http://hl7.org/fhir/R5/datatypes.html#Coding">Coding</a></td><td/><td><div><p>The substance that will be used to search. Substance SHALL be a coded parameter</p>
+</div></td></tr><tr><td>IN</td><td>ingredient.strength</td><td>instance</td><td>0..1</td><td><a href="http://hl7.org/fhir/R5/datatypes.html#RatioRange">RatioRange</a></td><td/><td><div><p>The strength of the substance that will be used to search. It is a RatioRange property: if the value is a fixed value, either minimum or maximum denominator are used (or both). Denominator is optional.</p>
+</div></td></tr></table></div>
+  </text>
+  <url value="https://profiles.ihe.net/Pharm/unicom-transactions/OperationDefinition/Product-substitutes"/>
+  <version value="0.0.1"/>
+  <name value="ProductSubstitutes"/>
+  <title value="Product substitutes"/>
+  <status value="draft"/>
+  <kind value="operation"/>
+  <experimental value="false"/>
+  <date value="2023-05-19T02:57:50+00:00"/>
+  <publisher value="UNICOM"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://unicom-project-eu"/>
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="unicom@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="UNICOM"/>
+    <telecom>
+      <system value="email"/>
+      <value value="iti@ihe.net"/>
+    </telecom>
+  </contact>
+  <description value="Operation to find product substitutes given the relevant attributes and the substitution context"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <affectsState value="false"/>
+  <code value="substitutes"/>
+  <resource value="Medication"/>
+  <resource value="MedicationKnowledge"/>
+  <resource value="MedicinalProductDefinition"/>
+  <system value="true"/>
+  <type value="true"/>
+  <instance value="true"/>
+  <parameter>
+    <name value="country"/>
+    <use value="in"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="The context in which the substitution is being executed, meaning the rules for substitution that are to be applied. Typically and by default the code for the country where the substitution is taking place. "/>
+    <type value="Coding"/>
+  </parameter>
+  <parameter>
+    <name value="doseform"/>
+    <use value="in"/>
+    <scope value="instance"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="The dose form. This coded element can include codes from different codesystems - which will determine the possibility of finding a substtitute. Some systems may optionally support a search based on display text besides the coded form."/>
+    <type value="Coding"/>
+  </parameter>
+  <parameter>
+    <name value="ingredient"/>
+    <use value="in"/>
+    <scope value="instance"/>
+    <min value="0"/>
+    <max value="*"/>
+    <documentation value="Each relevant ingredient to find substitutes - each ingredient has 2 parts - the substance and the strength"/>
+    <part>
+      <name value="substance"/>
+      <use value="in"/>
+      <scope value="instance"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="The substance that will be used to search. Substance SHALL be a coded parameter"/>
+      <type value="Coding"/>
+    </part>
+    <part>
+      <name value="strength"/>
+      <use value="in"/>
+      <scope value="instance"/>
+      <min value="0"/>
+      <max value="1"/>
+      <documentation value="The strength of the substance that will be used to search. It is a RatioRange property: if the value is a fixed value, either minimum or maximum denominator are used (or both). Denominator is optional."/>
+      <type value="RatioRange"/>
+    </part>
+  </parameter>
+</OperationDefinition>
