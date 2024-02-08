@@ -62,6 +62,10 @@ pages:
     requirements.html:
       title: Requirements
       generation: markdown
+    actors_and_transactions:
+      title: Actors and Transactions
+      generation: markdown
+    
   volume-2.html:
     title: Volume 2
     generation: markdown
